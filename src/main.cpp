@@ -303,7 +303,7 @@ void updateBlynk() {
   if (availableSlots == 0) {
 
     Blynk.virtualWrite(
-      V4,
+      V5,
       "PARKING FULL - ENTRY DENIED"
     );
 
@@ -315,7 +315,7 @@ void updateBlynk() {
       "/3";
 
     Blynk.virtualWrite(
-      V4,
+      V5,
       status
     );
   }
